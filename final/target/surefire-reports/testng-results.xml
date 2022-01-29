@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="6898" started-at="2022-01-29T17:15:09Z" finished-at="2022-01-29T17:15:16Z">
+    <groups>
+    </groups>
+    <test name="regression" duration-ms="607" started-at="2022-01-29T17:15:09Z" finished-at="2022-01-29T17:15:10Z">
+      <class name="testcases.TC001MyAccount">
+        <test-method status="PASS" signature="VerifyLogin()[pri:0, instance:testcases.TC001MyAccount@3f2a3a5]" name="VerifyLogin" duration-ms="590" started-at="2022-01-29T17:15:09Z" finished-at="2022-01-29T17:15:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+      </class> <!-- testcases.TC001MyAccount -->
+    </test> <!-- regression -->
+    <test name="register" duration-ms="2837" started-at="2022-01-29T17:15:10Z" finished-at="2022-01-29T17:15:13Z">
+      <class name="testcases.TC002Register">
+        <test-method status="PASS" signature="verifyRegister()[pri:1, instance:testcases.TC002Register@9f70c54]" name="verifyRegister" duration-ms="1340" started-at="2022-01-29T17:15:10Z" finished-at="2022-01-29T17:15:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegister -->
+        <test-method status="PASS" signature="verifyRegister1()[pri:2, instance:testcases.TC002Register@9f70c54]" name="verifyRegister1" duration-ms="1495" started-at="2022-01-29T17:15:11Z" finished-at="2022-01-29T17:15:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegister1 -->
+      </class> <!-- testcases.TC002Register -->
+    </test> <!-- register -->
+    <test name="login" duration-ms="3427" started-at="2022-01-29T17:15:13Z" finished-at="2022-01-29T17:15:16Z">
+      <class name="testcases.TC003Login">
+        <test-method status="PASS" signature="Initialize()[pri:0, instance:testcases.TC003Login@12843fce]" name="Initialize" is-config="true" duration-ms="2535" started-at="2022-01-29T17:15:07Z" finished-at="2022-01-29T17:15:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method status="PASS" signature="verifyLogin1()[pri:1, instance:testcases.TC003Login@12843fce]" name="verifyLogin1" duration-ms="1016" started-at="2022-01-29T17:15:13Z" finished-at="2022-01-29T17:15:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin1 -->
+        <test-method status="PASS" signature="verifyLogin2()[pri:2, instance:testcases.TC003Login@12843fce]" name="verifyLogin2" duration-ms="1095" started-at="2022-01-29T17:15:14Z" finished-at="2022-01-29T17:15:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin2 -->
+        <test-method status="PASS" signature="verifyLogin()[pri:3, instance:testcases.TC003Login@12843fce]" name="verifyLogin" duration-ms="1315" started-at="2022-01-29T17:15:15Z" finished-at="2022-01-29T17:15:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TC003Login@12843fce]" name="tearDown" is-config="true" duration-ms="68" started-at="2022-01-29T17:15:16Z" finished-at="2022-01-29T17:15:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC003Login -->
+    </test> <!-- login -->
+  </suite> <!-- Suite -->
+</testng-results>
