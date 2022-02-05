@@ -1,8 +1,0 @@
-testcases\TC002Register.class
-base\BaseClass.class
-testcases\TC001MyAccount.class
-pages\Home.class
-base\BasePage.class
-testcases\TC003Login.class
-pages\Register.class
-pages\Login.class
